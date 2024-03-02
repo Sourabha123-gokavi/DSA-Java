@@ -1,0 +1,10 @@
+Dynamic programming 
+Types of problems
+1) Fibonacci
+2) Unbounded knapsack
+3) Largest Common Subsequence
+4) Kadane's Algorithm
+5) 0 1 knapsack
+6) catlan Number
+7) DP on grid
+
