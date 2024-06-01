@@ -73,7 +73,8 @@ public class Cycle_directed{
             if(stack[e.dst]){//if the destination if already visited then
                 return true;
             }
-            else if(vis[e.dst] && iscycleUtil(graph,e.dst,vis,stack)){
+            // if the other part is not visited then we have to explore it and call it recursively for that part
+            else if(!vis[e.dst] && iscycleUtil(graph,e.dst,vis,stack)){
                 return true;
             }
         }
