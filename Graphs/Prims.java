@@ -38,7 +38,8 @@ public class Prims
                     Edge e=graph[curr.v].get(i);
                     pq.add(new Pair(e.v,e.wt));
                 }
-    
+            }
+        }    
         System.out.println("The MST cost of the graph is = "+finalcost);
     
     public static void main(String[] args) {
